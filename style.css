@@ -70,7 +70,7 @@ body {
   padding: clamp(8px, 1.5vw, 12px);
   border-radius: 8px;
   margin-bottom: clamp(12px, 2vw, 16px);
-  transition: background-color 0.3s, color 0.3s;
+  transition:none;
 }
 
 .link:last-child {
@@ -97,3 +97,4 @@ body {
     padding: 40px;
   }
 }
+
