@@ -21,10 +21,9 @@ body {
 
 .card {
   background-color: var(--grey-800);
-  border-radius: 12px;
+  border-radius: 11px;
   padding: clamp(24px, calc(5vw + 16px), 40px); /* Scales padding between 24px and 40px based on viewport */
-  max-width: min(90vw, clamp(327px, 50vw, 384px)); /* Constrains to 90vw or a clamped range */
-  text-align: center;
+  max-width: min(90vw, clamp(327px, 50vw, 384px)); 
 }
 
 .profile-picture {
@@ -70,7 +69,7 @@ body {
   padding: clamp(8px, 1.5vw, 12px);
   border-radius: 8px;
   margin-bottom: clamp(12px, 2vw, 16px);
-  transition:none;
+  transition:background-color 0.1s, color 0.1s;
 }
 
 .link:last-child {
@@ -97,4 +96,5 @@ body {
     padding: 40px;
   }
 }
+
 
